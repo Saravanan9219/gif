@@ -1,0 +1,16 @@
+{
+  "name": "Slack Bot - Gif",
+  "description": "A Slack Bot to post gif",
+  "image": "heroku/python",
+  "repository": "https://github.com/Saravanan9219/gif",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test"
+      }
+    }
+  }
+}
