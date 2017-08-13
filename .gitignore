@@ -1,0 +1,6 @@
+.env
+*.sqlite3
+__pycache__
+*/__pycache__
+*/migrations
+api/credentials.py
